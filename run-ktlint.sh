@@ -2,8 +2,8 @@
 set -eu
 IFS=$'\n\t'
 
-VERSION=1.8.0
 REPOSITORY="https://github.com/ktlint/ktlint"
+VERSION=2.0.0-ALPHA-4
 CACHE=".cache"
 KTLINT="${CACHE}/ktlint-${VERSION}"
 SUCCESS_FILE="${CACHE}/download-finished-${VERSION}"
