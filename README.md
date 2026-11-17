@@ -6,7 +6,7 @@ Usage:
 ```
 repos:
 - repo: https://github.com/antweb/ktlint-pre-commit
-  rev: "1.0.1"
+  rev: "1.8.0"
   hooks:
       - id: ktlint
 ```
@@ -17,7 +17,7 @@ the hook as follows:
 ```
 repos:
 - repo: https://github.com/antweb/ktlint-pre-commit
-  rev: "1.0.1"
+  rev: "1.8.0"
   hooks:
       - id: ktlint
         args: [-F]
